@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">VK Online Notifications</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_add_user">Add user</string>
+    <string name="add_user">Add user</string>
+    <string name="action_reload_database">Reload database</string>
+    <string name="settings">Settings</string>
+    <string name="authorization_error">Authorization error</string>
+    <string name="user_removed_toast">User removed from the list</string>
+    <string name="database_reloaded_toast">Database reloaded</string>
+    <string name="user_list_loaded_toast">User list loaded</string>
+    <string name="settings_applied_toast">Settings applied</string>
+    <string name="time_unit_seconds">" seconds"</string>
+    <string name="time_unit_minutes">" minutes"</string>
+    <string name="setting_update_period">"Update period: "</string>
+    <string name="online">Online</string>
+    <integer name="com_vk_sdk_AppId">5177202</integer>
+</resources>

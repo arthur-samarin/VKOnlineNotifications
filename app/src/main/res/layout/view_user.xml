@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp">
+
+        <ru.ifmo.android_2015.onlinenotifications.ui.HttpImageView
+            android:id="@+id/userImageView"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_alignParentTop="true"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/userNameView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignBottom="@+id/userImageView"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/userImageView"
+            android:gravity="left|center_vertical" />
+
+    </RelativeLayout>
+</merge>
